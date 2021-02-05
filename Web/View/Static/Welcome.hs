@@ -27,6 +27,13 @@ instance View WelcomeView where
               </div>
          </div>
 
+      <div class="flex items-center rounded-lg shadow-lg overflow-hidden">
+     <h3 class="text-lg font-semibold text-gray-800">
+            Hello
+        </h3>
+    </div>
+
+
          <div style="max-width: 800px; margin-left: auto; margin-right: auto; margin-top: 4rem">
               <img src="/ihp-welcome-icon.svg" alt="/ihp-welcome-icon">
               <p style="color: hsla(196, 13%, 50%, 1); margin-top: 4rem">

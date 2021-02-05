@@ -11,5 +11,24 @@
     "parcel": "^1.12.4",
     "purescript": "^0.13.8",
     "spago": "^0.19.0"
-  }
+  },
+  "name": "blog",
+  "description": "* Connect haskell backend and a purescript https://www.stackbuilders.com/tutorials/functional-full-stack/purescript-bridge/",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.4",
+    "tailwindcss": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuanwang-wf/ihp-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuanwang-wf/ihp-example/issues"
+  },
+  "homepage": "https://github.com/yuanwang-wf/ihp-example#readme"
 }

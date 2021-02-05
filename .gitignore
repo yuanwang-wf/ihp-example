@@ -27,6 +27,7 @@ node_modules
 output
 prod
 result
+static/app.css
 static/halogen/index.*
 static/prod.*
 tmp
