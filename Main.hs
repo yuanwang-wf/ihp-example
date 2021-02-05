@@ -1,13 +1,14 @@
 module Main where
-import IHP.Prelude
+import IHP.Prelude ( IO )
 
-import Config
+import Config ( config )
 import qualified IHP.Server
 import IHP.RouterSupport
-import IHP.FrameworkConfig
-import IHP.Job.Types
-import Web.FrontController
-import Web.Types
+    ( mountFrontController, FrontController(..) )
+import IHP.FrameworkConfig ( RootApplication )
+import IHP.Job.Types ( Worker(..) )
+import Web.FrontController ()
+import Web.Types ( WebApplication(WebApplication) )
 
 instance FrontController RootApplication where
     controllers = [

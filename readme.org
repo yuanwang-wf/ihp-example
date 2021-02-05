@@ -1,0 +1,5 @@
+* Connect haskell backend and a purescript
+https://www.stackbuilders.com/tutorials/functional-full-stack/purescript-bridge/
+
+* View
+https://ihp.digitallyinduced.com/Guide/view.html
